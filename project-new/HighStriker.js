@@ -39164,9 +39164,9 @@ p.nominalBounds = new cjs.Rectangle(-251.5,0,503,303.6);
 		//                            טעינת סאונדים
 		// ----------------------------------------------------------------------------
 		
-		addSound();
+		//addSound();
 		
-		function addSound() {
+		//function addSound() {
 			createjs.Sound.registerSound("/sounds/slotmachine.wav", "slotMachine");
 			createjs.Sound.registerSound("/sounds/moving.mp3", "moving");
 			createjs.Sound.registerSound("/sounds/hittarget.mp3", "hitButton");
@@ -39176,7 +39176,7 @@ p.nominalBounds = new cjs.Rectangle(-251.5,0,503,303.6);
 			createjs.Sound.registerSound("/sounds/fightmusic.mp3", "jingle");
 			createjs.Sound.registerSound("/sounds/fail.mp3", "fail");
 			createjs.Sound.registerSound("/sounds/endmusic.mp3", "endMusic");
-		}
+		//}
 		
 		// ----------------------------------------------------------------------------
 		//                             משתנים גלובליים
@@ -41548,11 +41548,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HighStriker_atlas_.png", id:"HighStriker_atlas_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js", id:"an.TextInput"},
-		{src:"components/ui/src/combobox.js", id:"an.ComboBox"}
+		{src:"images/HighStriker_atlas_.png?1582400393808", id:"HighStriker_atlas_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1582400398355", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1582400398355", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1582400398355", id:"an.TextInput"},
+		{src:"components/ui/src/combobox.js?1582400398355", id:"an.ComboBox"}
 	],
 	preloads: []
 };
